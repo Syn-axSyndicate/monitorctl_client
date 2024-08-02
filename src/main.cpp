@@ -1,4 +1,4 @@
-#include"mu.h"
+#include"core_packs/mu.h"
 int main() {
     printf("\n---program initiated---\n");
     FILE *fptr = fopen("process.json", "w");
