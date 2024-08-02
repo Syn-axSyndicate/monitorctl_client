@@ -1,0 +1,14 @@
+[
+{
+  "directory": "D:/softwares/portfolio/sysm2ctl_client/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/sysm2ctl_client.dir/includes_CXX.rsp -g -o CMakeFiles\\sysm2ctl_client.dir\\src\\main.cpp.obj -c D:\\softwares\\portfolio\\sysm2ctl_client\\src\\main.cpp",
+  "file": "D:/softwares/portfolio/sysm2ctl_client/src/main.cpp",
+  "output": "CMakeFiles/sysm2ctl_client.dir/src/main.cpp.obj"
+},
+{
+  "directory": "D:/softwares/portfolio/sysm2ctl_client/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe  @CMakeFiles/sysm2ctl_client.dir/includes_C.rsp -g -o CMakeFiles\\sysm2ctl_client.dir\\src\\mu.c.obj -c D:\\softwares\\portfolio\\sysm2ctl_client\\src\\mu.c",
+  "file": "D:/softwares/portfolio/sysm2ctl_client/src/mu.c",
+  "output": "CMakeFiles/sysm2ctl_client.dir/src/mu.c.obj"
+}
+]
