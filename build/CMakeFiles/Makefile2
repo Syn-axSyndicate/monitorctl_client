@@ -63,10 +63,13 @@ CMAKE_BINARY_DIR = D:\softwares\portfolio\sysm2ctl_client\build
 
 # The main recursive "all" target.
 all: CMakeFiles/sysm2ctl_client.dir/all
+all: src/core_packs/all
+all: src/network_interface/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
-preinstall:
+preinstall: src/core_packs/preinstall
+preinstall: src/network_interface/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
@@ -99,21 +102,53 @@ clean: CMakeFiles/ContinuousTest.dir/clean
 clean: CMakeFiles/ContinuousCoverage.dir/clean
 clean: CMakeFiles/ContinuousMemCheck.dir/clean
 clean: CMakeFiles/ContinuousSubmit.dir/clean
+clean: src/core_packs/clean
+clean: src/network_interface/clean
 .PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory src/core_packs
+
+# Recursive "all" directory target.
+src/core_packs/all: src/core_packs/CMakeFiles/core_packs.dir/all
+.PHONY : src/core_packs/all
+
+# Recursive "preinstall" directory target.
+src/core_packs/preinstall:
+.PHONY : src/core_packs/preinstall
+
+# Recursive "clean" directory target.
+src/core_packs/clean: src/core_packs/CMakeFiles/core_packs.dir/clean
+.PHONY : src/core_packs/clean
+
+#=============================================================================
+# Directory level rules for directory src/network_interface
+
+# Recursive "all" directory target.
+src/network_interface/all: src/network_interface/CMakeFiles/network_interface.dir/all
+.PHONY : src/network_interface/all
+
+# Recursive "preinstall" directory target.
+src/network_interface/preinstall:
+.PHONY : src/network_interface/preinstall
+
+# Recursive "clean" directory target.
+src/network_interface/clean: src/network_interface/CMakeFiles/network_interface.dir/clean
+.PHONY : src/network_interface/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/sysm2ctl_client.dir
 
 # All Build rule for target.
-CMakeFiles/sysm2ctl_client.dir/all:
+CMakeFiles/sysm2ctl_client.dir/all: src/core_packs/CMakeFiles/core_packs.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\sysm2ctl_client.dir\build.make CMakeFiles/sysm2ctl_client.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\sysm2ctl_client.dir\build.make CMakeFiles/sysm2ctl_client.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\softwares\portfolio\sysm2ctl_client\build\CMakeFiles --progress-num=1,2,3 "Built target sysm2ctl_client"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\softwares\portfolio\sysm2ctl_client\build\CMakeFiles --progress-num=5,6 "Built target sysm2ctl_client"
 .PHONY : CMakeFiles/sysm2ctl_client.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/sysm2ctl_client.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\softwares\portfolio\sysm2ctl_client\build\CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\softwares\portfolio\sysm2ctl_client\build\CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/sysm2ctl_client.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\softwares\portfolio\sysm2ctl_client\build\CMakeFiles 0
 .PHONY : CMakeFiles/sysm2ctl_client.dir/rule
@@ -854,6 +889,58 @@ ContinuousSubmit: CMakeFiles/ContinuousSubmit.dir/rule
 CMakeFiles/ContinuousSubmit.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ContinuousSubmit.dir\build.make CMakeFiles/ContinuousSubmit.dir/clean
 .PHONY : CMakeFiles/ContinuousSubmit.dir/clean
+
+#=============================================================================
+# Target rules for target src/core_packs/CMakeFiles/core_packs.dir
+
+# All Build rule for target.
+src/core_packs/CMakeFiles/core_packs.dir/all:
+	$(MAKE) $(MAKESILENT) -f src\core_packs\CMakeFiles\core_packs.dir\build.make src/core_packs/CMakeFiles/core_packs.dir/depend
+	$(MAKE) $(MAKESILENT) -f src\core_packs\CMakeFiles\core_packs.dir\build.make src/core_packs/CMakeFiles/core_packs.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\softwares\portfolio\sysm2ctl_client\build\CMakeFiles --progress-num=1,2 "Built target core_packs"
+.PHONY : src/core_packs/CMakeFiles/core_packs.dir/all
+
+# Build rule for subdir invocation for target.
+src/core_packs/CMakeFiles/core_packs.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\softwares\portfolio\sysm2ctl_client\build\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/core_packs/CMakeFiles/core_packs.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\softwares\portfolio\sysm2ctl_client\build\CMakeFiles 0
+.PHONY : src/core_packs/CMakeFiles/core_packs.dir/rule
+
+# Convenience name for target.
+core_packs: src/core_packs/CMakeFiles/core_packs.dir/rule
+.PHONY : core_packs
+
+# clean rule for target.
+src/core_packs/CMakeFiles/core_packs.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src\core_packs\CMakeFiles\core_packs.dir\build.make src/core_packs/CMakeFiles/core_packs.dir/clean
+.PHONY : src/core_packs/CMakeFiles/core_packs.dir/clean
+
+#=============================================================================
+# Target rules for target src/network_interface/CMakeFiles/network_interface.dir
+
+# All Build rule for target.
+src/network_interface/CMakeFiles/network_interface.dir/all:
+	$(MAKE) $(MAKESILENT) -f src\network_interface\CMakeFiles\network_interface.dir\build.make src/network_interface/CMakeFiles/network_interface.dir/depend
+	$(MAKE) $(MAKESILENT) -f src\network_interface\CMakeFiles\network_interface.dir\build.make src/network_interface/CMakeFiles/network_interface.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\softwares\portfolio\sysm2ctl_client\build\CMakeFiles --progress-num=3,4 "Built target network_interface"
+.PHONY : src/network_interface/CMakeFiles/network_interface.dir/all
+
+# Build rule for subdir invocation for target.
+src/network_interface/CMakeFiles/network_interface.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\softwares\portfolio\sysm2ctl_client\build\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/network_interface/CMakeFiles/network_interface.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\softwares\portfolio\sysm2ctl_client\build\CMakeFiles 0
+.PHONY : src/network_interface/CMakeFiles/network_interface.dir/rule
+
+# Convenience name for target.
+network_interface: src/network_interface/CMakeFiles/network_interface.dir/rule
+.PHONY : network_interface
+
+# clean rule for target.
+src/network_interface/CMakeFiles/network_interface.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src\network_interface\CMakeFiles\network_interface.dir\build.make src/network_interface/CMakeFiles/network_interface.dir/clean
+.PHONY : src/network_interface/CMakeFiles/network_interface.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

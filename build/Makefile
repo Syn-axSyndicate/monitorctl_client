@@ -502,6 +502,32 @@ ContinuousSubmit/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ContinuousSubmit.dir\build.make CMakeFiles/ContinuousSubmit.dir/build
 .PHONY : ContinuousSubmit/fast
 
+#=============================================================================
+# Target rules for targets named core_packs
+
+# Build rule for target.
+core_packs: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 core_packs
+.PHONY : core_packs
+
+# fast build rule for target.
+core_packs/fast:
+	$(MAKE) $(MAKESILENT) -f src\core_packs\CMakeFiles\core_packs.dir\build.make src/core_packs/CMakeFiles/core_packs.dir/build
+.PHONY : core_packs/fast
+
+#=============================================================================
+# Target rules for targets named network_interface
+
+# Build rule for target.
+network_interface: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 network_interface
+.PHONY : network_interface
+
+# fast build rule for target.
+network_interface/fast:
+	$(MAKE) $(MAKESILENT) -f src\network_interface\CMakeFiles\network_interface.dir\build.make src/network_interface/CMakeFiles/network_interface.dir/build
+.PHONY : network_interface/fast
+
 src/main.obj: src/main.cpp.obj
 .PHONY : src/main.obj
 
@@ -525,30 +551,6 @@ src/main.s: src/main.cpp.s
 src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\sysm2ctl_client.dir\build.make CMakeFiles/sysm2ctl_client.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
-
-src/mu.obj: src/mu.c.obj
-.PHONY : src/mu.obj
-
-# target to build an object file
-src/mu.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\sysm2ctl_client.dir\build.make CMakeFiles/sysm2ctl_client.dir/src/mu.c.obj
-.PHONY : src/mu.c.obj
-
-src/mu.i: src/mu.c.i
-.PHONY : src/mu.i
-
-# target to preprocess a source file
-src/mu.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\sysm2ctl_client.dir\build.make CMakeFiles/sysm2ctl_client.dir/src/mu.c.i
-.PHONY : src/mu.c.i
-
-src/mu.s: src/mu.c.s
-.PHONY : src/mu.s
-
-# target to generate assembly for a file
-src/mu.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\sysm2ctl_client.dir\build.make CMakeFiles/sysm2ctl_client.dir/src/mu.c.s
-.PHONY : src/mu.c.s
 
 # Help Target
 help:
@@ -587,13 +589,12 @@ help:
 	@echo ... NightlySubmit
 	@echo ... NightlyTest
 	@echo ... NightlyUpdate
+	@echo ... core_packs
+	@echo ... network_interface
 	@echo ... sysm2ctl_client
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
-	@echo ... src/mu.obj
-	@echo ... src/mu.i
-	@echo ... src/mu.s
 .PHONY : help
 
 

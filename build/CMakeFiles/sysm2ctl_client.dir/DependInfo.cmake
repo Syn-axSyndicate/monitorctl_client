@@ -8,7 +8,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "D:/softwares/portfolio/sysm2ctl_client/src/mu.c" "CMakeFiles/sysm2ctl_client.dir/src/mu.c.obj" "gcc" "CMakeFiles/sysm2ctl_client.dir/src/mu.c.obj.d"
   "D:/softwares/portfolio/sysm2ctl_client/src/main.cpp" "CMakeFiles/sysm2ctl_client.dir/src/main.cpp.obj" "gcc" "CMakeFiles/sysm2ctl_client.dir/src/main.cpp.obj.d"
   )
 

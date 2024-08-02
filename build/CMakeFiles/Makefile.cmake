@@ -38,6 +38,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.30.1/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.30.1/CMakeRCCompiler.cmake"
   "CMakeFiles/3.30.1/CMakeSystem.cmake"
+  "D:/softwares/portfolio/sysm2ctl_client/src/core_packs/CMakeLists.txt"
+  "D:/softwares/portfolio/sysm2ctl_client/src/network_interface/CMakeLists.txt"
   )
 
 # The corresponding makefile is:
@@ -50,6 +52,8 @@ set(CMAKE_MAKEFILE_OUTPUTS
 set(CMAKE_MAKEFILE_PRODUCTS
   "DartConfiguration.tcl"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
+  "src/core_packs/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "src/network_interface/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -83,4 +87,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/ContinuousCoverage.dir/DependInfo.cmake"
   "CMakeFiles/ContinuousMemCheck.dir/DependInfo.cmake"
   "CMakeFiles/ContinuousSubmit.dir/DependInfo.cmake"
+  "src/core_packs/CMakeFiles/core_packs.dir/DependInfo.cmake"
+  "src/network_interface/CMakeFiles/network_interface.dir/DependInfo.cmake"
   )

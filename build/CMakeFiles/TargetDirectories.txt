@@ -30,3 +30,11 @@ D:/softwares/portfolio/sysm2ctl_client/build/CMakeFiles/ContinuousSubmit.dir
 D:/softwares/portfolio/sysm2ctl_client/build/CMakeFiles/test.dir
 D:/softwares/portfolio/sysm2ctl_client/build/CMakeFiles/edit_cache.dir
 D:/softwares/portfolio/sysm2ctl_client/build/CMakeFiles/rebuild_cache.dir
+D:/softwares/portfolio/sysm2ctl_client/build/src/core_packs/CMakeFiles/core_packs.dir
+D:/softwares/portfolio/sysm2ctl_client/build/src/core_packs/CMakeFiles/test.dir
+D:/softwares/portfolio/sysm2ctl_client/build/src/core_packs/CMakeFiles/edit_cache.dir
+D:/softwares/portfolio/sysm2ctl_client/build/src/core_packs/CMakeFiles/rebuild_cache.dir
+D:/softwares/portfolio/sysm2ctl_client/build/src/network_interface/CMakeFiles/network_interface.dir
+D:/softwares/portfolio/sysm2ctl_client/build/src/network_interface/CMakeFiles/test.dir
+D:/softwares/portfolio/sysm2ctl_client/build/src/network_interface/CMakeFiles/edit_cache.dir
+D:/softwares/portfolio/sysm2ctl_client/build/src/network_interface/CMakeFiles/rebuild_cache.dir

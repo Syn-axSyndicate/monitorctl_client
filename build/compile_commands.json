@@ -6,9 +6,15 @@
   "output": "CMakeFiles/sysm2ctl_client.dir/src/main.cpp.obj"
 },
 {
-  "directory": "D:/softwares/portfolio/sysm2ctl_client/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe  @CMakeFiles/sysm2ctl_client.dir/includes_C.rsp -g -o CMakeFiles\\sysm2ctl_client.dir\\src\\mu.c.obj -c D:\\softwares\\portfolio\\sysm2ctl_client\\src\\mu.c",
-  "file": "D:/softwares/portfolio/sysm2ctl_client/src/mu.c",
-  "output": "CMakeFiles/sysm2ctl_client.dir/src/mu.c.obj"
+  "directory": "D:/softwares/portfolio/sysm2ctl_client/build/src/core_packs",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe  @CMakeFiles/core_packs.dir/includes_C.rsp -g -o CMakeFiles\\core_packs.dir\\mu.c.obj -c D:\\softwares\\portfolio\\sysm2ctl_client\\src\\core_packs\\mu.c",
+  "file": "D:/softwares/portfolio/sysm2ctl_client/src/core_packs/mu.c",
+  "output": "src/core_packs/CMakeFiles/core_packs.dir/mu.c.obj"
+},
+{
+  "directory": "D:/softwares/portfolio/sysm2ctl_client/build/src/network_interface",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe  @CMakeFiles/network_interface.dir/includes_C.rsp -g -o CMakeFiles\\network_interface.dir\\server.c.obj -c D:\\softwares\\portfolio\\sysm2ctl_client\\src\\network_interface\\server.c",
+  "file": "D:/softwares/portfolio/sysm2ctl_client/src/network_interface/server.c",
+  "output": "src/network_interface/CMakeFiles/network_interface.dir/server.c.obj"
 }
 ]

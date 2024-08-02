@@ -1,0 +1,2 @@
+C:\msys64\ucrt64\bin\ar.exe qc libSock_crud_interface.a CMakeFiles/Sock_crud_interface.dir/main.c.obj
+C:\msys64\ucrt64\bin\ranlib.exe libSock_crud_interface.a
