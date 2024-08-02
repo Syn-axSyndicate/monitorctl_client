@@ -1,7 +1,7 @@
 
 # monitorctl_client
 
-A powerfull to track the systems activity...
+A powerfull tool to track the systems activity...
 
 
 
@@ -16,6 +16,7 @@ A powerfull to track the systems activity...
 - backend server [ ]
 - remote script execution [ ]
 - Cross platform [ ]
+  
 ```At present working for windows systems```
 
 ## future Features
